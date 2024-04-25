@@ -21,18 +21,17 @@ describe('Login', () => {
         wordPressObj.installPlugIns();
         wordPressObj.pluginPage();
         wordPressObj.activePlugin();
-
         wordPressObj.wpDarkModeClick()
         wordPressObj.wpDarkModeClick()
-
         wordPressObj.customization()
         wordPressObj.switchSetting()
         wordPressObj.floatStyle()
+        wordPressObj.saveButton()
         wordPressObj.pullBar()
+        wordPressObj.saveButton()
         wordPressObj.switchPosition()
         wordPressObj.saveButton()
         wordPressObj.accessibility()
-
         wordPressObj.siteAnimation()
         wordPressObj.pageAnimationEnable()
         wordPressObj.animationSelect()
@@ -54,7 +53,9 @@ describe('Login', () => {
         wordPressObj.customization()
         wordPressObj.switchSetting()
         wordPressObj.floatStyle()
+        wordPressObj.saveButton()
         wordPressObj.pullBar()
+        wordPressObj.saveButton()
         wordPressObj.switchPosition()
         wordPressObj.saveButton()
         wordPressObj.accessibility()

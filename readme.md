@@ -53,6 +53,10 @@ To execute the tests in your machine, follow these steps:
 5. Select the desired test suite to execute from the Cypress dashboard.
 6. Monitor the test execution process and review the results.
 
+## CI/CD Integration
+
+Continuous Integration/Continuous Deployment (CI/CD) is integrated into this project using GitHub Actions. The YAML file for CI/CD configuration can be found at .github\workflows - [build.yml]
+
 ## Conclusion
 
 The WordPress automation project successfully automates the testing of the WP Dark Mode plugin, covering installation, activation, customization, accessibility, animation settings, and frontend display. By leveraging Cypress and best practices in test automation, the project aims to improve the efficiency and reliability of testing processes for WordPress plugins.
